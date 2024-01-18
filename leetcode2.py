@@ -4,14 +4,15 @@
 
 #Return the head of the merged linked list.
 
-l1 = [1,2,3,4]
-l2 = [2,3,45,5,6,7]
+l1 = [1,2,3,4,5,6,7,8,9]
+l2 = [2,3,45,5,6,7,3,4,67,8,9]
 
 def merge_twolist(n1,n2):
     res = sorted(l1+l2)
     return res
 return []
 merge_twolist(l1,l2)
+
 
 
 
