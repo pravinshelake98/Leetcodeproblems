@@ -23,6 +23,7 @@
 # Input: n = 2
 # Output: false
 
+num = int(input("enter your number:"))
 def happy_num(n):
     l1 = [ ]
     while n !=1:
@@ -32,6 +33,6 @@ def happy_num(n):
         l1.append(n)
     return True
             
-print(happy_num(7))
+print(happy_num(num))
 
 
