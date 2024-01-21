@@ -32,6 +32,7 @@ def happy_num(n):
             return False
         l1.append(n)
     return True
+print(f"{num} its happy number")
             
 print(happy_num(num))
 
